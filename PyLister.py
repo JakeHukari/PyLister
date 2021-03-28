@@ -26,7 +26,7 @@ else:
     print("Wrong format for DOB, make sure it is 8 numbers in DDMMYYYY")
     exit()
 
-phoneNo=input("Enter victim phone number:")
+phoneNo=input("Enter phone number:")
 
 def ListOfImportantWords():
     names.append(input("First name:"))
