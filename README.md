@@ -1,5 +1,5 @@
 # PyLister
-Simple personalised wordlist generator, perfect for bruteforcing specific accounts
+Simple personalized wordlist generator, perfect for bruteforcing specific accounts
 
 # How To Use
 ###### (Works on Windows, Linux, and MacOs)
