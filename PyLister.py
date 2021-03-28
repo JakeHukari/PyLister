@@ -2,36 +2,35 @@ list=[]
 names=[]
 temp_names=[]
 phoneNo=''
-dob=input("Victim Date Of Birth:")
+dob=input("Date of birth (DDMMYYYY):")
 if(len(dob)==8):
     day=dob[:2]
     month=dob[2:4]
     year=dob[4:]
 else:
-    print("Wrong format for date of birth, make sure it's DDMMYYYY")
+    print("Wrong format for DOB, make sure it is 8 numbers in DDMMYYYY")
     exit()
 
-phoneNo=input("Victim Phone Number:")
+phoneNo=input("Enter phone number:")
 
 def ListOfImportantWords():
     names.append(input("First name:"))
     names.append(input("Last Name:"))
     names.append(input("Nickname:"))
     print("\n")
-    names.append(input("Partner's name:"))
-    names.append(input("Partner's Nickname:"))
+    names.append(input("Partners name:"))
+    names.append(input("Partners Nickname:"))
     print("\n")
     names.append(input("Pets name:"))
+    names.append(input("Company name:"))
     print("\n")
     names.append(input("Childs name:"))
     names.append(input("Childs nickname:"))
     print("\n")
-    names.append(input("Company name:"))
     names.append(input("City:"))
     names.append(input("Country:"))
     names.append(input("Favourite colour:"))
-    print("\n")
-    print("Generating...")
+    print("Enter all other keywords: ")
     while True:
         inp = input()
         if inp == '':
