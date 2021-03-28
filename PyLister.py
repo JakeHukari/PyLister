@@ -17,7 +17,7 @@ list=[]
 names=[]
 temp_names=[]
 phoneNo=''
-dob=input("Enter Victim Date of birth (DDMMYYYY):")
+dob=input("Enter Date of birth (DDMMYYYY):")
 if(len(dob)==8):
     day=dob[:2]
     month=dob[2:4]
