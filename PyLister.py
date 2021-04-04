@@ -45,7 +45,7 @@ def ListOfImportantWords():
     names.append(input("City:"))
     names.append(input("Country:"))
     names.append(input("Favourite colour:"))
-    print("Enter all other keywords: ")
+    print("Enter any other keywords: ")
     while True:
         inp = input()
         if inp == '':
