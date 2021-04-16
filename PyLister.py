@@ -74,7 +74,7 @@ def permute(inp):
 
 
 
-def WordListCreator(list):
+def WordListCreation(list):
     for word in names:
         for i in range(0,len(word)+1):
             list.append(word[:i]+day+word[i:])
@@ -97,5 +97,5 @@ ListOfImportantWords()
 for i in names:
     permute(i)       
 names=names+temp_names
-WordListCreator(list)
+WordListCreation(list)
 WriteToFile(list)
