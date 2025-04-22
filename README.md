@@ -3,7 +3,7 @@ Simple personalized wordlist generator, perfect for bruteforcing specific accoun
 
 # How To Use
 ###### (Works on Windows, Linux, and MacOs)
-###### git clone https://www.github.com/krypt0c/PyLister
+###### git clone https://www.github.com/JakeHukari/PyLister
 ###### cd PyLister
 ###### py PyLister.py
 
